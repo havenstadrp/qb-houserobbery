@@ -9,10 +9,10 @@ Config.MaximumTime = 22
 
 Config.Rewards = {
     [1] = {
-        ["cabin"] = {"plastic", "diamond_ring", "goldchain", "weed_skunk", "thermite", "cryptostick", "weapon_golfclub"},
-        ["kitchen"] = {"tosti", "sandwich", "goldchain"},
-        ["chest"] = {"plastic", "rolex", "diamond_ring", "goldchain", "weed_skunk", "thermite", "cryptostick", "weapon_combatpistol"},
-        ["livingroom"] = {"plastic", "rolex", "diamond_ring", "goldchain", "thermite", "cryptostick", "tablet", "pistol_ammo"}
+        ["cabin"] = {"plastic", "diamond_ring", "goldchain", "weed_skunk", "thermite", "cryptostick", "metalscrap", "copper", "aluminum", "iron"},
+        ["kitchen"] = {"tosti", "sandwich", "goldchain", "beer", "jupiler", 'cookie', 'chips', 'apple', "weed_og-kush",  "cardiaquecigs"},
+        ["chest"] = {"plastic", "rolex", "diamond_ring", "goldchain", "weed_skunk", "steel", "rubber", "glass"},
+        ["livingroom"] = {"plastic", "rolex", "diamond_ring", "goldchain", "screwdriverset", "lockpick", "tablet", "phone", "lighter"}
     }
 }
 
@@ -32,70 +32,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -114,70 +114,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -196,70 +196,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -278,70 +278,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -360,70 +360,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -442,70 +442,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -524,70 +524,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -606,70 +606,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -688,70 +688,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -770,70 +770,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -852,70 +852,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -934,70 +934,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -1016,70 +1016,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -1098,70 +1098,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -1180,70 +1180,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -1262,70 +1262,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -1344,70 +1344,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -1426,70 +1426,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -1508,70 +1508,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -1590,70 +1590,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -1672,70 +1672,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -1754,70 +1754,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -1836,70 +1836,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -1918,70 +1918,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -2000,70 +2000,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -2082,70 +2082,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -2164,70 +2164,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -2246,70 +2246,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -2328,70 +2328,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -2410,70 +2410,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -2492,70 +2492,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -2574,70 +2574,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -2656,70 +2656,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -2738,70 +2738,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -2820,70 +2820,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -2902,70 +2902,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -2984,70 +2984,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -3066,70 +3066,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -3148,70 +3148,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -3230,70 +3230,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -3312,70 +3312,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -3394,70 +3394,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -3476,70 +3476,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -3558,70 +3558,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -3640,70 +3640,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -3722,70 +3722,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -3804,70 +3804,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -3886,70 +3886,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -3968,70 +3968,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -4050,70 +4050,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -4132,70 +4132,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -4214,70 +4214,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -4296,70 +4296,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -4378,70 +4378,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -4460,70 +4460,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -4542,70 +4542,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -4624,70 +4624,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -4706,70 +4706,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
@@ -4788,70 +4788,70 @@ Config.Houses = {
                 ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Bedside Cabinet"
+                ["text"] = "Zoeken in nachtkastje"
             },
             [2] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Closet"
+                ["text"] = "Zoeken in kleerkast"
             },
             [3] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [4] = {
                 ["type"] = "chest",
                 ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Chest"
+                ["text"] = "Zoek in kist"
             },
             [5] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Drawers"
+                ["text"] = "Doorzoek de lades"
             },
             [6] = {
                 ["type"] = "cabin",
                 ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Night Stand Cabinet"
+                ["text"] = "Hier vint u geen drugs"
             },
             [7] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through the kitchen cabinets"
+                ["text"] = "hier zal u eten of drinken vinden"
             },
             [8] = {
                 ["type"] = "kitchen",
                 ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [9] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
             [10] = {
                 ["type"] = "livingroom",
                 ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search through shelves"
+                ["text"] = "In de lade zoeken"
             },
         }
     },
